@@ -44,6 +44,8 @@
 
     $ganador = CalcularGanador($Jugador1,$Jugador2,$tabla);
 ?>
+
+    <!-- Comienzo Tabla HTML -->
     <h1>¡Piedra,Papel o Tijera!</h1>
     <table>
         <tr>
@@ -57,6 +59,7 @@
             <?php MostrarGanador($ganador,$msg)?> 
         </tr>
     </table>
+        <!-- Fin Tabla HTML -->
 
 <?php
     function CalcularGanador($P1,$P2,&$tabla) {
